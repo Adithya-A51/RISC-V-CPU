@@ -30,6 +30,4 @@ module intstruction_decoder(
         j  = {instruction[31], instruction[19:12], instruction[20], instruction[30:21], 1'b0};
     end
 
-
-
 endmodule
